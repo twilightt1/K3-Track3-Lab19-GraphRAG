@@ -1,0 +1,16 @@
+Loại câu hỏi,Metric,Flat RAG,GraphRAG,Nhận xét phân tích
+cross-doc,Comprehensiveness,3.0,5.0,GraphRAG vượt trội rõ rệt nhờ liên kết tri thức multi-hop.
+cross-doc,Faithfulness,4.0,5.0,GraphRAG vượt trội rõ rệt nhờ liên kết tri thức multi-hop.
+cross-doc,Multi-hop reasoning,3.0,5.0,GraphRAG vượt trội rõ rệt nhờ liên kết tri thức multi-hop.
+cross-doc,Latency (s),1.15,1.615,Flat RAG nhanh hơn do không tốn overhead duyệt Cypher.
+cross-doc,Token usage,1020.0,935.0,GraphRAG tối ưu token nhờ lọc cạnh chính xác.
+factoid,Comprehensiveness,5.0,5.0,Hai phương pháp tương đương nhau trên câu hỏi đơn.
+factoid,Faithfulness,5.0,5.0,Hai phương pháp tương đương nhau trên câu hỏi đơn.
+factoid,Multi-hop reasoning,5.0,5.0,Hai phương pháp tương đương nhau trên câu hỏi đơn.
+factoid,Latency (s),0.66,0.85,Flat RAG nhanh hơn do không tốn overhead duyệt Cypher.
+factoid,Token usage,785.0,580.0,GraphRAG tối ưu token nhờ lọc cạnh chính xác.
+multi-hop,Comprehensiveness,3.5,5.0,GraphRAG vượt trội rõ rệt nhờ liên kết tri thức multi-hop.
+multi-hop,Faithfulness,4.5,5.0,Hai phương pháp tương đương nhau trên câu hỏi đơn.
+multi-hop,Multi-hop reasoning,3.5,5.0,GraphRAG vượt trội rõ rệt nhờ liên kết tri thức multi-hop.
+multi-hop,Latency (s),1.05,1.385,Flat RAG nhanh hơn do không tốn overhead duyệt Cypher.
+multi-hop,Token usage,893.0,765.0,GraphRAG tối ưu token nhờ lọc cạnh chính xác.
